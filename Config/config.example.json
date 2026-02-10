@@ -1,0 +1,15 @@
+{
+    "Domain": "company.local",
+    "EmailDomain": "company.com",
+    "Company": "Company Name",
+    "NewUserOU": "OU=New Users,OU=Users,DC=company,DC=local",
+    "DisabledUsersOU": "OU=Disabled,OU=Users,DC=company,DC=local",
+    "HomeSharePath": "\\\\fileserver\\homes",
+    "ArchiveSharePath": "\\\\fileserver\\archive\\offboarded",
+    "SmtpServer": "smtp.company.com",
+    "SmtpFrom": "it@company.com",
+    "WelcomeEmailTemplate": "Config\\email-templates\\welcome.html",
+    "TeamsWebhookUrl": "https://company.webhook.office.com/webhookb2/...",
+    "M365TenantId": "00000000-0000-0000-0000-000000000000",
+    "M365AppId": "00000000-0000-0000-0000-000000000000"
+}

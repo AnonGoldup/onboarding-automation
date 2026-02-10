@@ -1,0 +1,26 @@
+{
+    "Department": "Engineering",
+    "Description": "Role template for Engineering department employees",
+    "ADGroups": [
+        "Engineering-All",
+        "VPN-Users",
+        "SharePoint-Engineering",
+        "Teams-Engineering",
+        "GitHub-Users",
+        "Dev-Resources"
+    ],
+    "M365License": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+    "M365LicenseDescription": "Microsoft 365 E3",
+    "TeamsChannels": [
+        "Engineering General",
+        "Engineering Standup",
+        "IT Support"
+    ],
+    "SharePointSites": [
+        "Engineering",
+        "Company Wiki"
+    ],
+    "DefaultOU": "OU=Engineering,OU=Users,DC=company,DC=local",
+    "HomeSharePath": "\\\\fileserver\\homes\\engineering",
+    "Notes": "Engineering users get GitHub access and dev resources group"
+}

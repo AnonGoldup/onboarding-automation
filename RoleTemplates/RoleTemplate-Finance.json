@@ -1,0 +1,25 @@
+{
+    "Department": "Finance",
+    "Description": "Role template for Finance department employees",
+    "ADGroups": [
+        "Finance-All",
+        "VPN-Users",
+        "SharePoint-Finance",
+        "Teams-Finance",
+        "Sage-Users",
+        "PowerBI-Users"
+    ],
+    "M365License": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+    "M365LicenseDescription": "Microsoft 365 E3",
+    "TeamsChannels": [
+        "Finance General",
+        "IT Support"
+    ],
+    "SharePointSites": [
+        "Finance",
+        "Company Wiki"
+    ],
+    "DefaultOU": "OU=Finance,OU=Users,DC=company,DC=local",
+    "HomeSharePath": "\\\\fileserver\\homes\\finance",
+    "Notes": "Finance users get Sage ERP and Power BI access"
+}

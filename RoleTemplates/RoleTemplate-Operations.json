@@ -1,0 +1,27 @@
+{
+    "Department": "Operations",
+    "Description": "Role template for Operations department employees",
+    "ADGroups": [
+        "Operations-All",
+        "VPN-Users",
+        "SharePoint-Operations",
+        "Teams-Operations",
+        "Timesheet-Users",
+        "Fleet-Management"
+    ],
+    "M365License": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+    "M365LicenseDescription": "Microsoft 365 E3",
+    "TeamsChannels": [
+        "Operations General",
+        "Safety",
+        "IT Support"
+    ],
+    "SharePointSites": [
+        "Operations",
+        "Company Wiki",
+        "Safety Documents"
+    ],
+    "DefaultOU": "OU=Operations,OU=Users,DC=company,DC=local",
+    "HomeSharePath": "\\\\fileserver\\homes\\operations",
+    "Notes": "Operations users get timesheet and fleet management access"
+}
